@@ -1,0 +1,394 @@
+/*
+Name:     		Geoffrey Personal Site CSS
+Description:    2 level adaptive / full and @450px
+Author:         Geoffrey W. Byers
+*/
+
+@import url("../responsive/style.css");
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600);*/
+@import url(http://fonts.googleapis.com/css?family=Roboto:900,700,500,400,300,300italic,100);
+
+
+* {
+	margin: 0;
+}
+html {
+	max-width: 100%;
+	padding: 0px;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -4em;
+}
+.footer, .push {
+	height: 4em;
+	clear: both;
+	text-align: center;
+}
+body {
+	color:#222222;
+	margin: 0px auto;
+	padding-top: 0px;
+	padding: 0px;
+	/*max-width: 1200px;*/
+}
+h1 {	
+	font-family: 'Roboto', sans-serif;
+	font-size: 4.5em;
+	font-weight: 700;
+	text-align: left;
+	margin: 0;
+	padding-bottom: .125em;
+}
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.875em;
+	font-weight: 400;
+	text-align: left;
+	margin: 0;
+}
+.content_h2 {
+		text-align: center;
+		margin-bottom: 50px;
+		font-weight: 100;
+		font-size: 3.125em;
+}
+h3 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5em;
+	font-weight: 300;
+	text-align: left;
+	margin: 0;
+	padding-top: .5em;
+}
+h4 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.375em;
+	font-weight: 100;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.125em;
+	font-weight: 100;
+	color:#222222;
+	text-align: left;
+}
+a {
+	text-decoration: none;
+	color: #222222;
+	border-bottom: 1px solid #dedede;
+}
+a:hover { 
+	color: #909090
+}
+#menu {
+    /*border: 0 none;*/
+    padding-top: 5px;
+    display: block;
+    background-color: #222222;
+    width: 100%;
+    height: 30px;
+}
+#name {
+	float: left;
+	font-size: 22px;
+}
+#nav {
+	float: right;
+	padding-right: 15%;
+}
+#nav * {
+	display: inline;
+	padding-left: 20px;
+	color: #f8f8f8;
+	border: none;
+}
+.btn {
+	border-radius: 4px;
+	border: 1px solid;
+	padding: 10px;
+	color: #f8f8f8;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+	width: 30%;
+	text-align: center;
+}
+#welcome {
+	margin: 0;
+	padding-left: 15%;
+	padding-right: 15%;
+    display: block;
+    width: 70%;
+    height: 800px;
+    background: #F8F8F8;
+}
+#welcome > #welcome_content {
+	position: relative;
+	top: 30%;
+    width: 100%;
+
+}
+#PLM {
+	margin: 0;
+    display: block;
+    height: 800px;
+    width: 100%;
+    background: #262C3B;
+    position: relative;
+}
+#PLM_content {
+	color: #f8f8f8;
+	text-align: center;
+	position: relative;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 150px;
+	width: 100%;
+}
+	#PLM_content > .main_img {
+		height: 50%;
+		margin-left: auto; 
+		margin-right: auto; 
+	}
+#HCX {
+	margin: 0;
+    display: block;
+    height: 800px;
+    width: 100%;
+    background: #55A0B9;
+    position: relative;
+}
+#HCX_content {
+	color: #f8f8f8;
+	text-align: center;
+	position: relative;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 150px;
+	width: 100%;
+}
+	#HCX_content > .main_img {
+		height: 50%;
+		margin-left: auto; 
+		margin-right: auto; 
+	}
+#BT {
+	margin: 0;
+    display: block;
+    height: 800px;
+    width: 100%;
+    background: #9DDBF9;
+    position: relative;
+}
+#BT_content {
+	color: #f8f8f8;
+	text-align: center;
+	position: relative;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 150px;
+	width: 100%;
+}
+	#BT_content > .main_img {
+		height: 50%;
+		margin-left: auto; 
+		margin-right: auto; 
+	}
+#MNSNG {
+	margin: 0;
+    display: block;
+    height: 800px;
+    width: 100%;
+    background: #B4C0C8;
+    position: relative;
+}
+#MNSNG_content {
+	color: #f8f8f8;
+	text-align: center;
+	position: relative;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 150px;
+	width: 100%;
+}
+	#MNSNG_content > .main_img {
+		height: 50%;
+		margin-left: auto; 
+		margin-right: auto; 
+	}
+#passportphone {
+	margin: 0;
+    display: block;
+    height: 800px;
+    width: 100%;
+    background: #CC4A30;
+    position: relative;
+}
+#passportphone_content {
+	color: #f8f8f8;
+	text-align: center;
+	position: relative;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 200px;
+	width: 100%;
+}
+	#passportphone_content > .main_img {
+		height: 50%;
+		margin-left: auto; 
+		margin-right: auto; 
+	}
+#NASA {
+	margin: 0;
+    display: block;
+    height: 800px;
+    width: 100%;
+    background: #55A0B9; /*#954E23*/
+    position: relative;
+}
+#NASA_content {
+	color: #f8f8f8;
+	text-align: center;
+	position: relative;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 200px;
+	width: 100%;
+}
+	#NASA_content > .main_img {
+		height: 50%;
+		margin-left: auto; 
+		margin-right: auto; 
+	}
+#chat {
+	margin: 0;
+    display: block;
+    height: 800px;
+    width: 100%;
+    background: #f8f8f8;
+    position: relative;
+}
+#chat_content {
+	margin-left: auto;
+	margin-right: auto;
+    display: block;
+    width: 70%;
+    top: 30%;
+    height: 400px;
+    background: #F8F8F8;
+    position: relative;
+    text-align: center
+}
+.footer {
+	background: #222222;
+}
+/*responsive section*/
+@media screen and (max-width: 450px) {
+	h1 {
+		font-size: 3em;
+	}
+	h2 {
+		font-size: 1.25em;
+	}
+	h3 {
+		font-size: 1.25em;
+	}
+	h4 {
+		font-size: 1.125em;
+	}
+	p {
+		font-size: 1em;
+	}
+	p > * {
+		font-size: 1em;
+	}
+	a {
+		font-size: 1em;
+	}
+	#welcome {
+		margin: 0;
+		padding-left: 5%;
+		padding-right: 5%;
+    	display: block;
+    	width: 90%;
+    	height: 800px;
+    	background: #F8F8F8;
+	}
+	#welcome > #welcome_content {
+		position: relative;
+		top: 5%;
+    	width: 100%;
+    }
+	.btn {
+		display: none;
+	}
+	.btntouch {
+		bottom: 0;
+		left: 0;
+		position: absolute;
+		margin-right: auto;
+		margin-left: auto;
+		width: 100%;
+		height: 100%;
+		border: none;
+	}
+	.content_h2 {
+		display:none;
+	}
+	#NASA_content > .main_img {
+		height: 40%;
+		margin-left: auto; 
+		margin-right: auto; 
+	}
+	#PLM_content > .main_img {
+		height: 40$;
+		margin-left: auto; 
+		margin-right: auto; 
+	}
+	#HCX_content > .main_img {
+		height: 40%;
+		margin-left: auto; 
+		margin-right: auto; 
+	}
+	#BT_content > .main_img {
+		height: 40%;
+		margin-left: auto; 
+		margin-right: auto; 
+	}
+	#MNSNG_content > .main_img {
+		height: 40%;
+		margin-left: auto; 
+		margin-right: auto; 
+	}
+	#passportphone_content > .main_img {
+		height: 40%;
+		margin-left: auto; 
+		margin-right: auto; 
+	}
+	#chat_content {
+		margin-left: auto;
+		margin-right: auto;
+    	display: block;
+    	width: 90%;
+    	top: 10%;
+    	height: 400px;
+    	background: #F8F8F8;
+    	position: relative;
+    	text-align: center
+}
+}

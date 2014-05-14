@@ -1,0 +1,291 @@
+
+/* general */
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+  padding-top: 30px;
+  color: #222222;
+  background-color: #55A0B9;
+}
+/* navigation */
+.navbar {
+	opacity: 0.3;
+}
+.navbar-nav {
+	float: right;
+}
+
+#footer {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	height: 180px;
+	background-color: #ECF0F1;
+	text-align: center;
+}
+/*containers*/
+#welcome {
+    width: 100%;
+    height:800px;
+}
+#welcome-content {
+	margin-top: 150px;
+}
+#NASA {
+	margin: 0;
+    display: block;
+    height: 800px;
+    width: 100%;
+    background: #313130; /*#954E23*/
+    position: relative;
+}
+#NASA-content {
+	color: #f8f8f8;
+	text-align: center;
+	position: relative;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 150px;
+	width: 100%;
+}
+	#NASA-content > .main-img {
+		height: 50%;
+		margin-left: auto; 
+		margin-right: auto; 
+	}
+#PLM {
+	margin: 0;
+    display: block;
+    height: 800px;
+    width: 100%;
+    background: #262C3B;
+    position: relative;
+}
+#PLM-content {
+	color: #f8f8f8;
+	text-align: center;
+	position: relative;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 150px;
+	width: 100%;
+}
+	#PLM-content > .main-img {
+		height: 50%;
+		margin-left: auto; 
+		margin-right: auto; 
+	}
+#HCX {
+	margin: 0;
+    display: block;
+    height: 800px;
+    width: 100%;
+    background: #55A0B9;
+    position: relative;
+}
+#HCX-content {
+	color: #f8f8f8;
+	text-align: center;
+	position: relative;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 30px;
+	width: 100%;
+}
+	#HCX-content > .main-img {
+		height: 50%;
+		margin-left: auto; 
+		margin-right: auto; 
+	}
+#BT {
+	margin: 0;
+    display: block;
+    height: 800px;
+    width: 100%;
+    background: #55b9a0;
+    position: relative;
+}
+#BT-content {
+	color: #f8f8f8;
+	text-align: center;
+	position: relative;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 60px;
+	width: 100%;
+}
+	#BT-content > .main-img {
+		height: 50%;
+		margin-left: auto; 
+		margin-right: auto; 
+	}
+#MNSNG {
+	margin: 0;
+    display: block;
+    height: 800px;
+    width: 100%;
+    background: #556eb9;
+    position: relative;
+}
+#MNSNG-content {
+	color: #f8f8f8;
+	text-align: center;
+	position: relative;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 30px;
+	width: 100%;
+}
+	#MNSNG-content > .main-img {
+		height: 50%;
+		margin-left: auto; 
+		margin-right: auto; 
+	}
+#passportphone {
+	margin: 0;
+    display: block;
+    height: 800px;
+    width: 100%;
+    background: #CC4A30;
+    position: relative;
+}
+#passportphone-content {
+	color: #f8f8f8;
+	text-align: center;
+	position: relative;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 150px;
+	width: 100%;
+}
+	#passportphone-content > .main-img {
+		height: 50%;
+		margin-left: auto; 
+		margin-right: auto; 
+	}
+#chat {
+	color: #f8f8f8;
+	margin: 0;
+    display: block;
+    height: 800px;
+    width: 100%;
+    background: #78b4c8;
+    position: relative;
+}
+#chat-content {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+    display: block;
+    width: 100%;
+    top: 60px;
+    height: 400px;
+    position: relative;
+}
+/* buttons */
+.case-study-button {
+	bottom: 0;
+	left: 0;
+	position: relative;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+
+}
+.btn-case-study {
+	border-radius: 4px;
+	border: 1px solid;
+	padding: 16px;
+	color: #f8f8f8;
+	background-color: none;
+}
+.btn-case-study:hover, .btn-case-study:focus, .btn-case-study:active, .btn-case-study.active, .open .dropdown-toggle.btn-case-study {
+    background-color: #CACFD2;
+    border-color: #CACFD2;
+    color: #f8f8f8;
+}
+/* fonts */
+
+.navbar-default .navbar-nav > li > a {
+	color: #222222;
+	font-weight: 400
+}
+.navbar-default .navbar-nav > li > a:hover, a:active {
+	color:#CACFD2;
+	transition: all 0.25s ease 0s;
+}
+#welcome h3 > a {
+	color: #222222;
+	border-bottom: 1px solid #DEDEDE;
+}
+
+#welcome h3 > a:hover, a:active {
+	color: #CACFD2;
+	transition: all 0.25s ease 0s;
+}
+
+
+
+
+h1 {
+	font-family: Roboto;
+	font-size: 4.5em;
+	font-weight: 200;
+	line-height: 1.5em;
+}
+h2 {
+	font-family: Roboto;
+	font-size: 1.875em;
+	font-weight: 400;
+	margin:0;
+	line-height: 1.25em;
+}
+.content-h2 {
+		font-family: Roboto;
+		text-align: center;
+		margin-top: 15px;
+		margin-bottom: 20px;
+		font-weight: 100;
+		font-size: 3.125em;
+}
+h3 {
+	font-family: Roboto;
+	font-size: 1.5em;
+	font-weight: 300;
+	line-height: 1.25em;
+}
+h6 {
+	font-family: Roboto;
+	font-weight: 100;
+}
+.content-h6 {
+	text-align: left;
+	font-size: 1.25em;
+}
+
+h5 {
+	font-family: Roboto;
+}
+
+.fa-footer {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	color: #222222;
+}
+
+.fa-footer:hover, .fa-footer:active {
+	color: #CACFD2;
+	transition: all 0.25s ease 0s;
+}
+
+
+
+
